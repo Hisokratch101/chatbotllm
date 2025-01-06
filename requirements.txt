@@ -1,5 +1,19 @@
-# requirements.txt
-streamlit
-langchain
-groq
-python-dotenv
+# Core dependencies
+streamlit>=1.31.0
+python-dotenv>=1.0.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+typing>=3.7.4
+
+# Optional dependencies for file handling
+pandas>=2.0.0  # For potential data processing
+openpyxl>=3.1.0  # For Excel file support (.xlsx)
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Memory management
+langchain-community>=0.0.10  # For ConversationBufferMemory
+
+# Type hints
+typing-extensions>=4.5.0  # Additional type hint support
